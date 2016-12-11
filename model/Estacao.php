@@ -1,16 +1,9 @@
 <?php
 	class Estacao {
-		private $Nome;
-		private $Sigla;
-		function get_Nome(){
-			return $Nome;
+		private $nome;
+		function set_nome($nome){
+			$this->nome = $nome
 		}
-		function set_Nome($Nome){
-			$this->Nome = $Nome
-		}
-		function get_Sigla(){
-			return $Sigla;
-		}
-		function set_Sigla($Sigla){
-			$this->Sigla = $Sigla
+		function get_nome(){
+			return $nome;
 		}

@@ -1,37 +1,44 @@
 <?php
 	class Endereco {
-		private $Estacao_Nome;
-		private $Tipo_Transporte;
-		private $Bairro;
-		private $Latitude;
-		private $Longitude;
-		function get_Estacao_Nome(){
-			return $Estacao_Nome;
+		private $estacao_Nome;
+		private $tipo_Transporte;
+		private $bairro;
+		private $sigla_estacao_endereco;
+		private $latitude;
+		private $longitude;
+		function set_estacao_Nome($estacao_Nome){
+			$this->estacao_Nome = $estacao_Nome
 		}
-		function set_Estacao_Nome($Estacao_Nome){
-			$this->Estacao_Nome = $Estacao_Nome
+		function get_estacao_Nome(){
+			return $estacao_Nome;
 		}
-		function get_Tipo_Transporte(){
-			return $Tipo_Transporte;
+		function set_tipo_Transporte($tipo_Transporte){
+			$this->tipo_Transporte = $tipo_Transporte
 		}
-		function set_Tipo_Transporte($Tipo_Transporte){
-			$this->Tipo_Transporte = $Tipo_Transporte
+		function get_tipo_Transporte(){
+			return $tipo_Transporte;
 		}
-		function get_Bairro(){
-			return $Bairro;
+		function set_bairro($bairro){
+			$this->bairro = $bairro
 		}
-		function set_Bairro($Bairro){
-			$this->Bairro = $Bairro
+		function get_bairro(){
+			return $bairro;
 		}
-		function get_Latitude(){
-			return $Latitude;
+		function set_sigla_estacao_endereco($sigla_estacao_endereco){
+			$this->sigla_estacao_endereco = $sigla_estacao_endereco
 		}
-		function set_Latitude($Latitude){
-			$this->Latitude = $Latitude
+		function get_sigla_estacao_endereco(){
+			return $sigla_estacao_endereco;
 		}
-		function get_Longitude(){
-			return $Longitude;
+		function set_latitude($latitude){
+			$this->latitude = $latitude
 		}
-		function set_Longitude($Longitude){
-			$this->Longitude = $Longitude
+		function get_latitude(){
+			return $latitude;
+		}
+		function set_longitude($longitude){
+			$this->longitude = $longitude
+		}
+		function get_longitude(){
+			return $longitude;
 		}

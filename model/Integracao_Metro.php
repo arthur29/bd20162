@@ -1,16 +1,16 @@
 <?php
-	class Especificacao_Metro_Linha {
-		private $linha_Nome;
+	class Integracao_Metro {
 		private $especificacao_Metro_Estacao_Nome;
-		function set_linha_Nome($linha_Nome){
-			$this->linha_Nome = $linha_Nome
-		}
-		function get_linha_Nome(){
-			return $linha_Nome;
-		}
+		private $nome_integracao;
 		function set_especificacao_Metro_Estacao_Nome($especificacao_Metro_Estacao_Nome){
 			$this->especificacao_Metro_Estacao_Nome = $especificacao_Metro_Estacao_Nome
 		}
 		function get_especificacao_Metro_Estacao_Nome(){
 			return $especificacao_Metro_Estacao_Nome;
+		}
+		function set_nome_integracao($nome_integracao){
+			$this->nome_integracao = $nome_integracao
+		}
+		function get_nome_integracao(){
+			return $nome_integracao;
 		}

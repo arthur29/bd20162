@@ -1,9 +1,9 @@
 <?php
 	class Linha {
-		private $Nome;
-		function get_Nome(){
-			return $Nome;
+		private $nome;
+		function set_nome($nome){
+			$this->nome = $nome
 		}
-		function set_Nome($Nome){
-			$this->Nome = $Nome
+		function get_nome(){
+			return $nome;
 		}

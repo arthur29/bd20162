@@ -1,37 +1,37 @@
 <?php
 	class Especificacao_VLT {
-		private $Estacao_Nome;
-		private $Roletas;
-		private $Integracao;
-		private $Tempo_ida;
-		private $Tempo_volta;
-		function get_Estacao_Nome(){
-			return $Estacao_Nome;
+		private $estacao_Nome;
+		private $roleta;
+		private $integracao;
+		private $tempo_ida;
+		private $tempo_volta;
+		function set_estacao_Nome($estacao_Nome){
+			$this->estacao_Nome = $estacao_Nome
 		}
-		function set_Estacao_Nome($Estacao_Nome){
-			$this->Estacao_Nome = $Estacao_Nome
+		function get_estacao_Nome(){
+			return $estacao_Nome;
 		}
-		function get_Roletas(){
-			return $Roletas;
+		function set_roleta($roleta){
+			$this->roleta = $roleta
 		}
-		function set_Roletas($Roletas){
-			$this->Roletas = $Roletas
+		function get_roleta(){
+			return $roleta;
 		}
-		function get_Integracao(){
-			return $Integracao;
+		function set_integracao($integracao){
+			$this->integracao = $integracao
 		}
-		function set_Integracao($Integracao){
-			$this->Integracao = $Integracao
+		function get_integracao(){
+			return $integracao;
 		}
-		function get_Tempo_ida(){
-			return $Tempo_ida;
+		function set_tempo_ida($tempo_ida){
+			$this->tempo_ida = $tempo_ida
 		}
-		function set_Tempo_ida($Tempo_ida){
-			$this->Tempo_ida = $Tempo_ida
+		function get_tempo_ida(){
+			return $tempo_ida;
 		}
-		function get_Tempo_volta(){
-			return $Tempo_volta;
+		function set_tempo_volta($tempo_volta){
+			$this->tempo_volta = $tempo_volta
 		}
-		function set_Tempo_volta($Tempo_volta){
-			$this->Tempo_volta = $Tempo_volta
+		function get_tempo_volta(){
+			return $tempo_volta;
 		}

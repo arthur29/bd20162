@@ -1,65 +1,65 @@
 <?php
 	class Especificacao_Metro {
-		private $Estacao_Nome;
-		private $Guiches;
-		private $Elevador;
-		private $Escada_rolante;
-		private $Tapete_rolante;
-		private $Plataforma_vertical;
-		private $Plataforma_inclinada;
-		private $Roleta_entrada;
-		private $Roleta_saida;
-		function get_Estacao_Nome(){
-			return $Estacao_Nome;
+		private $estacao_Nome;
+		private $guiche;
+		private $elevador;
+		private $escada_rolante;
+		private $tapete_rolante;
+		private $plataforma_vertical;
+		private $plataforma_inclinada;
+		private $roleta_entrada;
+		private $roleta_saida;
+		function set_estacao_Nome($estacao_Nome){
+			$this->estacao_Nome = $estacao_Nome
 		}
-		function set_Estacao_Nome($Estacao_Nome){
-			$this->Estacao_Nome = $Estacao_Nome
+		function get_estacao_Nome(){
+			return $estacao_Nome;
 		}
-		function get_Guiches(){
-			return $Guiches;
+		function set_guiche($guiche){
+			$this->guiche = $guiche
 		}
-		function set_Guiches($Guiches){
-			$this->Guiches = $Guiches
+		function get_guiche(){
+			return $guiche;
 		}
-		function get_Elevador(){
-			return $Elevador;
+		function set_elevador($elevador){
+			$this->elevador = $elevador
 		}
-		function set_Elevador($Elevador){
-			$this->Elevador = $Elevador
+		function get_elevador(){
+			return $elevador;
 		}
-		function get_Escada_rolante(){
-			return $Escada_rolante;
+		function set_escada_rolante($escada_rolante){
+			$this->escada_rolante = $escada_rolante
 		}
-		function set_Escada_rolante($Escada_rolante){
-			$this->Escada_rolante = $Escada_rolante
+		function get_escada_rolante(){
+			return $escada_rolante;
 		}
-		function get_Tapete_rolante(){
-			return $Tapete_rolante;
+		function set_tapete_rolante($tapete_rolante){
+			$this->tapete_rolante = $tapete_rolante
 		}
-		function set_Tapete_rolante($Tapete_rolante){
-			$this->Tapete_rolante = $Tapete_rolante
+		function get_tapete_rolante(){
+			return $tapete_rolante;
 		}
-		function get_Plataforma_vertical(){
-			return $Plataforma_vertical;
+		function set_plataforma_vertical($plataforma_vertical){
+			$this->plataforma_vertical = $plataforma_vertical
 		}
-		function set_Plataforma_vertical($Plataforma_vertical){
-			$this->Plataforma_vertical = $Plataforma_vertical
+		function get_plataforma_vertical(){
+			return $plataforma_vertical;
 		}
-		function get_Plataforma_inclinada(){
-			return $Plataforma_inclinada;
+		function set_plataforma_inclinada($plataforma_inclinada){
+			$this->plataforma_inclinada = $plataforma_inclinada
 		}
-		function set_Plataforma_inclinada($Plataforma_inclinada){
-			$this->Plataforma_inclinada = $Plataforma_inclinada
+		function get_plataforma_inclinada(){
+			return $plataforma_inclinada;
 		}
-		function get_Roleta_entrada(){
-			return $Roleta_entrada;
+		function set_roleta_entrada($roleta_entrada){
+			$this->roleta_entrada = $roleta_entrada
 		}
-		function set_Roleta_entrada($Roleta_entrada){
-			$this->Roleta_entrada = $Roleta_entrada
+		function get_roleta_entrada(){
+			return $roleta_entrada;
 		}
-		function get_Roleta_saida(){
-			return $Roleta_saida;
+		function set_roleta_saida($roleta_saida){
+			$this->roleta_saida = $roleta_saida
 		}
-		function set_Roleta_saida($Roleta_saida){
-			$this->Roleta_saida = $Roleta_saida
+		function get_roleta_saida(){
+			return $roleta_saida;
 		}

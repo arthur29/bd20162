@@ -1,30 +1,30 @@
 <?php
 	class Especificacao_Trem {
-		private $Estacao_Nome;
-		private $Ramal_Nome;
-		private $Bicilcetario;
-		private $Kilometragem;
-		function get_Estacao_Nome(){
-			return $Estacao_Nome;
+		private $estacao_Nome;
+		private $ramal_Nome;
+		private $bicilcetario;
+		private $quilometragem;
+		function set_estacao_Nome($estacao_Nome){
+			$this->estacao_Nome = $estacao_Nome
 		}
-		function set_Estacao_Nome($Estacao_Nome){
-			$this->Estacao_Nome = $Estacao_Nome
+		function get_estacao_Nome(){
+			return $estacao_Nome;
 		}
-		function get_Ramal_Nome(){
-			return $Ramal_Nome;
+		function set_ramal_Nome($ramal_Nome){
+			$this->ramal_Nome = $ramal_Nome
 		}
-		function set_Ramal_Nome($Ramal_Nome){
-			$this->Ramal_Nome = $Ramal_Nome
+		function get_ramal_Nome(){
+			return $ramal_Nome;
 		}
-		function get_Bicilcetario(){
-			return $Bicilcetario;
+		function set_bicilcetario($bicilcetario){
+			$this->bicilcetario = $bicilcetario
 		}
-		function set_Bicilcetario($Bicilcetario){
-			$this->Bicilcetario = $Bicilcetario
+		function get_bicilcetario(){
+			return $bicilcetario;
 		}
-		function get_Kilometragem(){
-			return $Kilometragem;
+		function set_quilometragem($quilometragem){
+			$this->quilometragem = $quilometragem
 		}
-		function set_Kilometragem($Kilometragem){
-			$this->Kilometragem = $Kilometragem
+		function get_quilometragem(){
+			return $quilometragem;
 		}
