@@ -66,7 +66,8 @@
         <div class="col-sm-offset-1 col-sm-10" id="response">
         </div>
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script type="text/javascript" src="files/js/index.js"></script>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="files/js/index.js"></script>
 	</body>
 </html>
