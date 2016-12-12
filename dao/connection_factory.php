@@ -12,6 +12,10 @@ class ConnectionFactory {
 	  $username = "u368612708_root";
 	  $password = "123456";
 	  $dbname = "u368612708_mydb";
+      $servername = "localhost";
+	  $username = "root";
+	  $password = "";
+	  $dbname = "mydb";
 
     $this->connection = new mysqli ($servername, $username, $password, $dbname);
     //var_dump($connection);

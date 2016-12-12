@@ -52,6 +52,15 @@
                             Número de estações de VLT que possuem integração
                         </div>
                     </div>
+
+                    <div class="input-group">
+            <span class="input-group-addon">
+              <input type="radio" aria-label="teste6" id="sql6" name="sqls-geradas">
+            </span>
+                        <div class="form-control">
+                            Quantidade de estações de cada tipo de transporte
+                        </div>
+                    </div>
         </div>
 
         <div class="col-sm-offset-2 col-sm-4">
@@ -71,6 +80,15 @@
             </span>
                 <div class="form-control">
                     Estações da linha vermelha do metrô
+                </div>
+            </div>
+
+         <div class="input-group">
+            <span class="input-group-addon">
+              <input type="radio" aria-label="teste5" id="sql5" name="sqls-geradas">
+            </span>
+                <div class="form-control">
+                    Estações que possuem elevador e seus respectivos bairros
                 </div>
             </div>
 

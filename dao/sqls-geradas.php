@@ -34,43 +34,36 @@
     function sql1 (){
       $sql = "select Estacao_Nome from Especificacao_Metro";
       $result = $this->connection->query ($sql);
-        while ($row = $result->fetch_row()) {
-
-            echo $row[0] . '<br />'; //debug
-        }
-//        $result = $result->fetch_row();
-      return $row;
+      return $result->fetch_all();
     }
 
       function sql2 (){
           $sql = "select Estacao_Nome from Especificacao_Trem e join ramal r on e.ramal_nome = r.nome where r.nome = 'japeri'";
           $result = $this->connection->query ($sql);
-          while ($row = $result->fetch_row()) {
-              echo $row[0] . '<br />'; //debug
-          }
-//      $result = $result->fetch_row();
-          return $row;
+          return $result->fetch_all();
       }
 
       function sql3 (){
           $sql = "select count(Estacao_Nome) from Especificacao_VLT RIGHT join Integracao_VLT on especificacao_vlt_estacao_nome = Estacao_Nome;";
           $result = $this->connection->query ($sql);
-          while ($row = $result->fetch_row()) {
-              return $row;
-
-//              echo $row[0] . '<br />'; //debug
+          return $result->fetch_all();
           }
-//      $result = $result->fetch_row();
-          return $row;
-      }
 
       function sql4 (){
           $sql = "select m.Estacao_Nome from Especificacao_Metro m join Especificacao_Metro_Linha ml on m.Estacao_Nome = ml.Especificacao_Metro_Estacao_Nome join Linha l on ml.Linha_Nome = l.Nome where l.nome = 'vermelha';";
           $result = $this->connection->query ($sql);
-          while ($row = $result->fetch_row()) {
-              echo $row[0] . '<br />'; //debug
-          }
-//      $result = $result->fetch_row();
-          return $row;
+          return $result->fetch_all();
+      }
+
+      function sql5 (){
+          $sql = "select m.Estacao_Nome, ende.Bairro from Especificacao_Metro m join Estacao est on m.Estacao_Nome = est.Nome join Endereco ende on est.Nome = ende.Estacao_Nome where Elevador is not null;";
+          $result = $this->connection->query ($sql);
+          return $result->fetch_all();
+      }
+
+      function sql6 (){
+          $sql = "select count(*) from Especificacao_VLT union select count(*) from Especificacao_Metro union select count(*) from Especificacao_Trem;";
+          $result = $this->connection->query ($sql);
+          return $result->fetch_all();
       }
   }

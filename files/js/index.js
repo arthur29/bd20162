@@ -3,6 +3,12 @@ $().ready(function (){
   $("#sql2").change (function (){sqls_geradas();});
   $("#sql3").change (function (){sqls_geradas();});
   $("#sql4").change (function (){sqls_geradas();});
+  $("#sql5").change (function (){sqls_geradas();});
+  $("#sql6").change (function (){sqls_geradas();});
+  $("#sql7").change (function (){sqls_geradas();});
+  $("#sql8").change (function (){sqls_geradas();});
+  $("#sql9").change (function (){sqls_geradas();});
+  $("#sql10").change (function (){sqls_geradas();});
   $("#data").change (function (){sqls_geradas()});
 
   function sqls_geradas (){
@@ -53,6 +59,30 @@ $().ready(function (){
         }
       });
     }
+
+    if ($("#sql5").is(":checked") && $("#data").val() != ""){
+          $.post ("controller/sqls-geradas.php",{
+            funcao: "sql5",
+            dado: $("#data").val()
+          },function (data,status){
+            if (status=="success"){
+              $("#response").html(data);
+              console.log(data);
+            }
+          });
+        }
+
+        if ($("#sql6").is(":checked") && $("#data").val() != ""){
+          $.post ("controller/sqls-geradas.php",{
+            funcao: "sql6",
+            dado: $("#data").val()
+          },function (data,status){
+            if (status=="success"){
+              $("#response").html(data);
+              console.log(data);
+            }
+          });
+        }
 
 
     }

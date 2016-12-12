@@ -24,7 +24,9 @@
       $retorno .= "<tr> <th>Nome das Linhas de Metrô</th></tr>";
         $retorno .= "<tr>";
         $retorno .= "<td>";
-        $retorno .= $result;
+        foreach ($result as $res){
+            $retorno .= $res[0]."<br/>";
+        }
         $retorno .="</td>";
         $retorno .="</tr>";
       $retorno .= "</table>";
@@ -38,7 +40,9 @@
       $retorno .= "<tr> <th>Estações do ramal Japeri</th></tr>";
         $retorno .= "<tr>";
         $retorno .= "<td>";
-        $retorno .= $result;
+        foreach ($result as $res){
+            $retorno .= $res[0]."<br/>";
+        }
         $retorno .="</td>";
         $retorno .="</tr>";
       $retorno .= "</table>";
@@ -52,7 +56,9 @@
       $retorno .= "<tr> <th>Número de estações de VLT que possuem integração</th></tr>";
         $retorno .= "<tr>";
         $retorno .= "<td>";
-        $retorno .= $result[0];
+         foreach ($result as $res){
+             $retorno .= $res[0]."<br/>";
+         }
         $retorno .="</td>";
         $retorno .="</tr>";
       $retorno .= "</table>";
@@ -66,11 +72,46 @@
       $retorno .= "<tr> <th>Estações da linha vermelha do metrô</th></tr>";
         $retorno .= "<tr>";
         $retorno .= "<td>";
-        $retorno .= $result;
+         foreach ($result as $res){
+             $retorno .= $res[0]."<br/>";
+         }
         $retorno .="</td>";
         $retorno .="</tr>";
       $retorno .= "</table>";
       echo $retorno;
       break;
+
+     case 'sql5':
+      $result = $dao_sqls_geradas->sql5();
+
+      $retorno = "<table class='table table-striped'>";
+      $retorno .= "<tr> <th>Estações que possuem elevador e seus respectivos bairros</th></tr>";
+        $retorno .= "<tr>";
+        $retorno .= "<td>";
+         foreach ($result as $res){
+             $retorno .= $res[0]."<br/>";
+         }
+        $retorno .="</td>";
+        $retorno .="</tr>";
+      $retorno .= "</table>";
+      echo $retorno;
+      break;
+
+      case 'sql6':
+      $result = $dao_sqls_geradas->sql6();
+
+      $retorno = "<table class='table table-striped'>";
+      $retorno .= "<tr> <th>Quantidade de estações de cada tipo de transporte</th></tr>";
+        $retorno .= "<tr>";
+        $retorno .= "<td>";
+         foreach ($result as $res){
+             $retorno .= $res[0]."<br/>";
+         }
+        $retorno .="</td>";
+        $retorno .="</tr>";
+      $retorno .= "</table>";
+      echo $retorno;
+      break;
+
   }
 
