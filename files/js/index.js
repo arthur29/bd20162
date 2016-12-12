@@ -10,7 +10,7 @@ $().ready(function (){
           },function (data,status){
             if (status=="success"){
               $("#response").html(data);
-              console.log("Arthr");
+              console.log(data);
             }
           });
       }

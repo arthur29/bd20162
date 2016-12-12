@@ -1,22 +1,33 @@
 <?php
   require_once ("connection_factory.php");
-  class SQLS_GERADAS {
+
+  class SqlsGeradas {
     private $connectionFactory = null;
     private $connection = null;
 
 
     function __construct (){
       try{
-        $connectionFactory = new ConnectionFactory ();
+        $this->connectionFactory = new ConnectionFactory();
+        $this->connection = $this->connectionFactory->connection;
       }catch (Exception $e){
         throw new Exception ($e->getMessage());
       }
-      $connection = $connectionFactoy->connection;
     }
     
     function sql1 (){
       $sql = "select avg(roleta_entrada) as media_roleta from Especificacao_Metro";
-      $result = $connection->query ($sql);
+      $result = $this->connection->query ($sql);
+      $result = $result->media_roleta; 
+      if ($result == null){
+        $result = 0;
+      }
+      //$i=0
+      //foreach $result as $linha_banco {
+      //  $object[$i] = new ModelClass ();
+      //  $object->property = $linha_banco["property"];
+      //}
+      //return $object;
       return $result;
     }
   }

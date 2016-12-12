@@ -11,7 +11,7 @@
       break;
   }
   try{
-    $dao_sqls_geradas = new SQLS_GERADAS ();
+    $dao_sqls_geradas = new SqlsGeradas ();
   }catch (Exception $e){
     error_log ("Erro na conexao com o banco de dados",0);
     die();
@@ -20,17 +20,18 @@
     case 'sql1':
       $result = $dao_sqls_geradas->sql1();
       
-      $string = "<table class='table table-striped'>";
-      $string += "<tr> <th>Média de roletas de entradas</th></tr>";
-
-      foreach ($result as $resu){
-        $string += "<tr>";
-        $string += "<td>";
-        $string += $resu->media_roleta;
-        $string +="</td>";
-        $string +="</tr>";
-      }
-      $string += "</table>";
+      $retorno = "<table class='table table-striped'>";
+      $retorno .= "<tr> <th>Média de roletas de entradas</th></tr>";
+      //var_dump ($result);
+      //foreach ($result as $resu){
+        $retorno .= "<tr>";
+        $retorno .= "<td>";
+        $retorno .= $result;
+        $retorno .="</td>";
+        $retorno .="</tr>";
+      //}
+      $retorno .= "</table>";
+      echo $retorno;
       break;
   }
 
