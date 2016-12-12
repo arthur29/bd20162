@@ -113,5 +113,73 @@
       echo $retorno;
       break;
 
+      case 'sql7':
+          $result = $dao_sqls_geradas->sql7();
+
+          $retorno = "<table class='table table-striped'>";
+          $retorno .= "<tr> <th>Média de bicicletários por estação de trem</th></tr>";
+          $retorno .= "<tr>";
+          $retorno .= "<td>";
+          foreach ($result as $res){
+              $retorno .= $res[0]."<br/>";
+          }
+          $retorno .="</td>";
+          $retorno .="</tr>";
+          $retorno .= "</table>";
+          echo $retorno;
+
+      break;
+
+
+      case 'sql8':
+          $result = $dao_sqls_geradas->sql8();
+
+          $retorno = "<table class='table table-striped'>";
+          $retorno .= "<tr> <th>Estação de trem que possui a maior kilometragem, e a sua kilometragem:</th></tr>";
+          $retorno .= "<tr>";
+          $retorno .= "<td>";
+          foreach ($result as $res){
+              $retorno .= $res[0]."<br/>";
+          }
+          $retorno .="</td>";
+          $retorno .="</tr>";
+          $retorno .= "</table>";
+          echo $retorno;
+      break;
+
+
+      case 'sql9':
+      $result = $dao_sqls_geradas->sql9();
+
+      $retorno = "<table class='table table-striped'>";
+      $retorno .= "<tr> <th>Estacoes de metrô que possuem mais de dois elevadores</th></tr>";
+        $retorno .= "<tr>";
+        $retorno .= "<td>";
+         foreach ($result as $res){
+             $retorno .= $res[0]."<br/>";
+         }
+        $retorno .="</td>";
+        $retorno .="</tr>";
+      $retorno .= "</table>";
+      echo $retorno;
+      break;
+
+
+      case 'sql10':
+      $result = $dao_sqls_geradas->sql10();
+
+      $retorno = "<table class='table table-striped'>";
+      $retorno .= "<tr> <th>Estação que possui o menor tempo de volta, e seu respectivo tempo</th></tr>";
+        $retorno .= "<tr>";
+        $retorno .= "<td>";
+         foreach ($result as $res){
+             $retorno .= $res[0]."<br/>";
+         }
+        $retorno .="</td>";
+        $retorno .="</tr>";
+      $retorno .= "</table>";
+      echo $retorno;
+      break;
+
   }
 

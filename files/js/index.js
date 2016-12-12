@@ -84,6 +84,54 @@ $().ready(function (){
           });
         }
 
+        if ($("#sql7").is(":checked") && $("#data").val() != ""){
+          $.post ("controller/sqls-geradas.php",{
+            funcao: "sql7",
+            dado: $("#data").val()
+          },function (data,status){
+            if (status=="success"){
+              $("#response").html(data);
+              console.log(data);
+            }
+          });
+        }
+
+        if ($("#sql8").is(":checked") && $("#data").val() != ""){
+          $.post ("controller/sqls-geradas.php",{
+            funcao: "sql8",
+            dado: $("#data").val()
+          },function (data,status){
+            if (status=="success"){
+              $("#response").html(data);
+              console.log(data);
+            }
+          });
+        }
+
+        if ($("#sql9").is(":checked") && $("#data").val() != ""){
+          $.post ("controller/sqls-geradas.php",{
+            funcao: "sql9",
+            dado: $("#data").val()
+          },function (data,status){
+            if (status=="success"){
+              $("#response").html(data);
+              console.log(data);
+            }
+          });
+        }
+
+        if ($("#sql10").is(":checked") && $("#data").val() != ""){
+          $.post ("controller/sqls-geradas.php",{
+            funcao: "sql10",
+            dado: $("#data").val()
+          },function (data,status){
+            if (status=="success"){
+              $("#response").html(data);
+              console.log(data);
+            }
+          });
+        }
+
 
     }
 });

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40803553-0ddc-4d73-9395-4584ec79c977" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/sqls-geradas.php" afterPath="$PROJECT_DIR$/controller/sqls-geradas.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/connection_factory.php" afterPath="$PROJECT_DIR$/dao/connection_factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/sqls-geradas.php" afterPath="$PROJECT_DIR$/dao/sqls-geradas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/css/index.css" afterPath="$PROJECT_DIR$/files/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/js/index.js" afterPath="$PROJECT_DIR$/files/js/index.js" />
     </list>
     <ignored path="bd20162.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,51 +30,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-910">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sqls-geradas.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao/sqls-geradas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="67" column="7" selection-start-line="62" selection-start-column="0" selection-end-line="67" selection-end-column="7" />
+            <state relative-caret-position="277">
+              <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
               <folding>
-                <marker date="1481559546867" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
-                <marker date="1481559546867" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
-                <marker date="1481559546867" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
-                <marker date="1481559546867" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
-                <marker date="1481559546867" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
-                <marker date="1481559546867" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
-                <marker date="1481559546867" expanded="true" signature="2282:2413" ph="select count... " />
-                <marker date="1481559546867" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
-                <marker date="1481559546867" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
+                <marker date="1481586757663" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
+                <marker date="1481586757663" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
+                <marker date="1481586757663" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
+                <marker date="1481586757663" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
+                <marker date="1481586757663" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
+                <marker date="1481586757663" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
+                <marker date="1481586757663" expanded="true" signature="2282:2413" ph="select count... " />
+                <marker date="1481586757663" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
+                <marker date="1481586757663" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
+                <marker date="1481586757663" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
+                <marker date="1481586757663" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
+                <marker date="1481586757663" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
+                <marker date="1481586757663" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
+                <marker date="1481586757663" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqls-geradas.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sqls-geradas.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/sqls-geradas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1427">
-              <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connection_factory.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dao/connection_factory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="-389">
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +68,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+            <state relative-caret-position="-867">
+              <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -103,11 +94,12 @@
         <option value="$PROJECT_DIR$/model/Linha.php" />
         <option value="$PROJECT_DIR$/model/Ramal.php" />
         <option value="$PROJECT_DIR$/admin.php" />
-        <option value="$PROJECT_DIR$/controller/sqls-geradas.php" />
+        <option value="$PROJECT_DIR$/dao/connection_factory.php" />
+        <option value="$PROJECT_DIR$/files/css/index.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/files/js/index.js" />
         <option value="$PROJECT_DIR$/dao/sqls-geradas.php" />
-        <option value="$PROJECT_DIR$/dao/connection_factory.php" />
+        <option value="$PROJECT_DIR$/controller/sqls-geradas.php" />
       </list>
     </option>
   </component>
@@ -121,7 +113,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1364" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -179,6 +171,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bd20162" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bd20162" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bd20162" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bd20162" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,23 +308,24 @@
       <updated>1481507922576</updated>
       <workItem from="1481507924304" duration="9467000" />
       <workItem from="1481555351130" duration="4643000" />
+      <workItem from="1481573366673" duration="2901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14110000" />
+    <option name="totallyTimeSpent" value="17011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1364" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25383437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -325,6 +354,61 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/files/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/sqls-geradas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="7" selection-start-line="62" selection-start-column="0" selection-end-line="67" selection-end-column="7" />
+          <folding>
+            <marker date="1481586757663" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
+            <marker date="1481586757663" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
+            <marker date="1481586757663" expanded="true" signature="2282:2413" ph="select count... " />
+            <marker date="1481586757663" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
+            <marker date="1481586757663" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/sqls-geradas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/connection_factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/files/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -417,52 +501,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/js/index.js">
+    <entry file="file://$PROJECT_DIR$/dao/connection_factory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-910">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="223">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+        <state relative-caret-position="-867">
+          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/sqls-geradas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="67" column="7" selection-start-line="62" selection-start-column="0" selection-end-line="67" selection-end-column="7" />
+        <state relative-caret-position="277">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
           <folding>
-            <marker date="1481559546867" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
-            <marker date="1481559546867" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
-            <marker date="1481559546867" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
-            <marker date="1481559546867" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
-            <marker date="1481559546867" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
-            <marker date="1481559546867" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
-            <marker date="1481559546867" expanded="true" signature="2282:2413" ph="select count... " />
-            <marker date="1481559546867" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
-            <marker date="1481559546867" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
+            <marker date="1481586757663" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
+            <marker date="1481586757663" expanded="true" signature="2282:2413" ph="select count... " />
+            <marker date="1481586757663" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
+            <marker date="1481586757663" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
+            <marker date="1481586757663" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
+            <marker date="1481586757663" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/sqls-geradas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1427">
-          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/connection_factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="-389">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding />
         </state>
       </provider>

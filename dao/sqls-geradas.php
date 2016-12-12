@@ -66,4 +66,28 @@
           $result = $this->connection->query ($sql);
           return $result->fetch_all();
       }
+
+      function sql7 (){
+          $sql = "select avg(Bicicletario), Estacao_Nome from Especificacao_Trem group by Estacao_Nome;";
+          $result = $this->connection->query ($sql);
+          return $result->fetch_all();
+      }
+
+      function sql8 (){
+          $sql = "select Estacao_Nome, max(Kilometragem) from Especificacao_Trem group by Estacao_Nome;";
+          $result = $this->connection->query ($sql);
+          return $result->fetch_all();
+      }
+
+      function sql9 (){
+          $sql = "select Estacao_Nome from Especificacao_Metro having count(Elevador) > 2;";
+          $result = $this->connection->query ($sql);
+          return $result->fetch_all();
+      }
+
+      function sql10 (){
+          $sql = "select Estacao_Nome, Tempo_volta from Especificacao_VLT where Tempo_volta in (select min(Tempo_volta) from Especificacao_VLT);";
+          $result = $this->connection->query ($sql);
+          return $result->fetch_all();
+      }
   }
