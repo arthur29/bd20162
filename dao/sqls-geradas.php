@@ -14,11 +14,11 @@
         throw new Exception ($e->getMessage());
       }
     }
-    
+    /*
     function sql1 (){
-      $sql = "select avg(roleta_entrada) as media_roleta from Especificacao_Metro";
+      $sql = "select Estacao_Nome from Especificacao_Metro";
       $result = $this->connection->query ($sql);
-      $result = $result->media_roleta; 
+      $result = $result->media_roleta;
       if ($result == null){
         $result = 0;
       }
@@ -30,4 +30,47 @@
       //return $object;
       return $result;
     }
+*/
+    function sql1 (){
+      $sql = "select Estacao_Nome from Especificacao_Metro";
+      $result = $this->connection->query ($sql);
+        while ($row = $result->fetch_row()) {
+
+            echo $row[0] . '<br />'; //debug
+        }
+//        $result = $result->fetch_row();
+      return $row;
+    }
+
+      function sql2 (){
+          $sql = "select Estacao_Nome from Especificacao_Trem e join ramal r on e.ramal_nome = r.nome where r.nome = 'japeri'";
+          $result = $this->connection->query ($sql);
+          while ($row = $result->fetch_row()) {
+              echo $row[0] . '<br />'; //debug
+          }
+//      $result = $result->fetch_row();
+          return $row;
+      }
+
+      function sql3 (){
+          $sql = "select count(Estacao_Nome) from Especificacao_VLT RIGHT join Integracao_VLT on especificacao_vlt_estacao_nome = Estacao_Nome;";
+          $result = $this->connection->query ($sql);
+          while ($row = $result->fetch_row()) {
+              return $row;
+
+//              echo $row[0] . '<br />'; //debug
+          }
+//      $result = $result->fetch_row();
+          return $row;
+      }
+
+      function sql4 (){
+          $sql = "select m.Estacao_Nome from Especificacao_Metro m join Especificacao_Metro_Linha ml on m.Estacao_Nome = ml.Especificacao_Metro_Estacao_Nome join Linha l on ml.Linha_Nome = l.Nome where l.nome = 'vermelha';";
+          $result = $this->connection->query ($sql);
+          while ($row = $result->fetch_row()) {
+              echo $row[0] . '<br />'; //debug
+          }
+//      $result = $result->fetch_row();
+          return $row;
+      }
   }

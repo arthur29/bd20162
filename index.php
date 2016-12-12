@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>STCP - home</title>
-		<meta chaset="utf-8">
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="files/css/index.css"/>
@@ -32,33 +32,56 @@
         </div>
       </div>
 			<div class="row row-subtitle">
+
 				<div class="col-sm-offset-1 col-sm-4">
-          <div class="input-group">
+
+                    <div class="input-group">
             <span class="input-group-addon">
-              <input type="radio" aria-label="teste1" id="selectavg" name="sqls-geradas">
+              <input type="radio" aria-label="teste1" id="sql1" name="sqls-geradas">
             </span>
             <div class="form-control">
-              select avg (roleta_entrada) from Especificacao_Metro;
+                Nomes de todas as linhas do metro
             </div>
           </div>
+
+                    <div class="input-group">
+            <span class="input-group-addon">
+              <input type="radio" aria-label="teste3" id="sql3" name="sqls-geradas">
+            </span>
+                        <div class="form-control">
+                            Número de estações de VLT que possuem integração
+                        </div>
+                    </div>
         </div>
-				<div class="col-sm-offset-2 col-sm-4">
+
+        <div class="col-sm-offset-2 col-sm-4">
+
           <div class="input-group">
             <span class="input-group-addon">
-              <input type="radio" aria-label="teste2" name="sqls-geradas">
+              <input type="radio" aria-label="teste2" id="sql2" name="sqls-geradas">
             </span>
             <div class="form-control">
-              select * from VLT where nome_Estacao like "%nome%";
+                Estações do ramal Japeri
             </div>
           </div>
+
+            <div class="input-group">
+            <span class="input-group-addon">
+              <input type="radio" aria-label="teste4" id="sql4" name="sqls-geradas">
+            </span>
+                <div class="form-control">
+                    Estações da linha vermelha do metrô
+                </div>
+            </div>
+
         </div>
+
       </div>
       <div class="row">
         <div class="col-sm-offset-2 col-sm-8">
           <div class="input-group">
             <span class="input-group-addon" id="basic-addon1">Dado para o sql</span>
-              <input type="text" class="form-control" placeholder="Dado para o sql" aria-describedby="basic-addon1" id="data">
-            </span>
+              <input type="text" class="form-control" placeholder="Dado para o sql" aria-describedby="basic-addon1" id="data" value="olar">
           </div>
         </div>
       </div>

@@ -21,15 +21,54 @@
       $result = $dao_sqls_geradas->sql1();
       
       $retorno = "<table class='table table-striped'>";
-      $retorno .= "<tr> <th>Média de roletas de entradas</th></tr>";
-      //var_dump ($result);
-      //foreach ($result as $resu){
+      $retorno .= "<tr> <th>Nome das Linhas de Metrô</th></tr>";
         $retorno .= "<tr>";
         $retorno .= "<td>";
         $retorno .= $result;
         $retorno .="</td>";
         $retorno .="</tr>";
-      //}
+      $retorno .= "</table>";
+      echo $retorno;
+      break;
+
+     case 'sql2':
+      $result = $dao_sqls_geradas->sql2();
+
+      $retorno = "<table class='table table-striped'>";
+      $retorno .= "<tr> <th>Estações do ramal Japeri</th></tr>";
+        $retorno .= "<tr>";
+        $retorno .= "<td>";
+        $retorno .= $result;
+        $retorno .="</td>";
+        $retorno .="</tr>";
+      $retorno .= "</table>";
+      echo $retorno;
+      break;
+
+     case 'sql3':
+      $result = $dao_sqls_geradas->sql3();
+
+      $retorno = "<table class='table table-striped'>";
+      $retorno .= "<tr> <th>Número de estações de VLT que possuem integração</th></tr>";
+        $retorno .= "<tr>";
+        $retorno .= "<td>";
+        $retorno .= $result[0];
+        $retorno .="</td>";
+        $retorno .="</tr>";
+      $retorno .= "</table>";
+      echo $retorno;
+      break;
+
+     case 'sql4':
+      $result = $dao_sqls_geradas->sql4();
+
+      $retorno = "<table class='table table-striped'>";
+      $retorno .= "<tr> <th>Estações da linha vermelha do metrô</th></tr>";
+        $retorno .= "<tr>";
+        $retorno .= "<td>";
+        $retorno .= $result;
+        $retorno .="</td>";
+        $retorno .="</tr>";
       $retorno .= "</table>";
       echo $retorno;
       break;
