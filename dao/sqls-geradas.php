@@ -68,7 +68,7 @@
       }
 
       function sql7 (){
-          $sql = "select avg(Bicicletario), Estacao_Nome from Especificacao_Trem group by Estacao_Nome;";
+          $sql = "select avg(Bicicletário), Estacao_Nome from Especificacao_Trem group by Estacao_Nome;";
           $result = $this->connection->query ($sql);
           return $result->fetch_all();
       }

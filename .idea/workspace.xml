@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40803553-0ddc-4d73-9395-4584ec79c977" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/sqls-geradas.php" afterPath="$PROJECT_DIR$/controller/sqls-geradas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/connection_factory.php" afterPath="$PROJECT_DIR$/dao/connection_factory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/sqls-geradas.php" afterPath="$PROJECT_DIR$/dao/sqls-geradas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/css/index.css" afterPath="$PROJECT_DIR$/files/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/js/index.js" afterPath="$PROJECT_DIR$/files/js/index.js" />
     </list>
     <ignored path="bd20162.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,36 +24,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sqls-geradas.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sqls-geradas.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dao/sqls-geradas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+            <state relative-caret-position="87">
+              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding>
-                <marker date="1481586757663" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
-                <marker date="1481586757663" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
-                <marker date="1481586757663" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
-                <marker date="1481586757663" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
-                <marker date="1481586757663" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
-                <marker date="1481586757663" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
-                <marker date="1481586757663" expanded="true" signature="2282:2413" ph="select count... " />
-                <marker date="1481586757663" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
-                <marker date="1481586757663" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
-                <marker date="1481586757663" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
-                <marker date="1481586757663" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
-                <marker date="1481586757663" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
-                <marker date="1481586757663" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
-                <marker date="1481586757663" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
+                <marker date="1481587656807" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
+                <marker date="1481587656807" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
+                <marker date="1481587656807" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
+                <marker date="1481587656807" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
+                <marker date="1481587656807" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
+                <marker date="1481587656807" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
+                <marker date="1481587656807" expanded="true" signature="2282:2413" ph="select count... " />
+                <marker date="1481587656807" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
+                <marker date="1481587656807" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
+                <marker date="1481587656807" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
+                <marker date="1481587656807" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
+                <marker date="1481587656807" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
+                <marker date="1481587656807" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
+                <marker date="1481587656807" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqls-geradas.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqls-geradas.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/sqls-geradas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-389">
-              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+            <state relative-caret-position="121">
+              <caret line="137" column="101" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -98,8 +92,8 @@
         <option value="$PROJECT_DIR$/files/css/index.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/files/js/index.js" />
-        <option value="$PROJECT_DIR$/dao/sqls-geradas.php" />
         <option value="$PROJECT_DIR$/controller/sqls-geradas.php" />
+        <option value="$PROJECT_DIR$/dao/sqls-geradas.php" />
       </list>
     </option>
   </component>
@@ -308,12 +302,12 @@
       <updated>1481507922576</updated>
       <workItem from="1481507924304" duration="9467000" />
       <workItem from="1481555351130" duration="4643000" />
-      <workItem from="1481573366673" duration="2901000" />
+      <workItem from="1481573366673" duration="3408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17011000" />
+    <option name="totallyTimeSpent" value="17518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -325,7 +319,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -367,20 +361,20 @@
         <state relative-caret-position="1139">
           <caret line="67" column="7" selection-start-line="62" selection-start-column="0" selection-end-line="67" selection-end-column="7" />
           <folding>
-            <marker date="1481586757663" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
-            <marker date="1481586757663" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
-            <marker date="1481586757663" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
-            <marker date="1481586757663" expanded="true" signature="2282:2413" ph="select count... " />
-            <marker date="1481586757663" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
-            <marker date="1481586757663" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
-            <marker date="1481586757663" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
-            <marker date="1481586757663" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
-            <marker date="1481586757663" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
+            <marker date="1481587656807" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
+            <marker date="1481587656807" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
+            <marker date="1481587656807" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
+            <marker date="1481587656807" expanded="true" signature="2282:2413" ph="select count... " />
+            <marker date="1481587656807" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
+            <marker date="1481587656807" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
+            <marker date="1481587656807" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
+            <marker date="1481587656807" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
+            <marker date="1481587656807" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
           </folding>
         </state>
       </provider>
@@ -533,34 +527,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/sqls-geradas.php">
+    <entry file="file://$PROJECT_DIR$/controller/sqls-geradas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
-          <folding>
-            <marker date="1481586757663" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
-            <marker date="1481586757663" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
-            <marker date="1481586757663" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
-            <marker date="1481586757663" expanded="true" signature="2282:2413" ph="select count... " />
-            <marker date="1481586757663" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
-            <marker date="1481586757663" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
-            <marker date="1481586757663" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
-            <marker date="1481586757663" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
-            <marker date="1481586757663" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
-            <marker date="1481586757663" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
-          </folding>
+        <state relative-caret-position="121">
+          <caret line="137" column="101" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="101" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/sqls-geradas.php">
+    <entry file="file://$PROJECT_DIR$/dao/sqls-geradas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="87">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+          <folding>
+            <marker date="1481587656807" expanded="true" signature="892:936" ph="select Estac... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="1072:1179" ph="select Estac... Especificacao_Trem" />
+            <marker date="1481587656807" expanded="true" signature="1325:1449" ph="select count... Especificacao_VLT" />
+            <marker date="1481587656807" expanded="true" signature="1600:1803" ph="select m.Est... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="1950:2135" ph="select m.Est... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="2282:2320" ph="select count... Especificacao_VLT" />
+            <marker date="1481587656807" expanded="true" signature="2282:2413" ph="select count... " />
+            <marker date="1481587656807" expanded="true" signature="2327:2367" ph="select count... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="2374:2413" ph="select count... Especificacao_Trem" />
+            <marker date="1481587656807" expanded="true" signature="2560:2644" ph="select avg(B... Especificacao_Trem" />
+            <marker date="1481587656807" expanded="true" signature="2791:2875" ph="select Estac... Especificacao_Trem" />
+            <marker date="1481587656807" expanded="true" signature="3022:3093" ph="select Estac... Especificacao_Metro" />
+            <marker date="1481587656807" expanded="true" signature="3241:3366" ph="select Estac... Especificacao_VLT" />
+            <marker date="1481587656807" expanded="true" signature="3319:3365" ph="select min(T... Especificacao_VLT" />
+          </folding>
         </state>
       </provider>
     </entry>
