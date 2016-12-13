@@ -68,12 +68,9 @@
       }
 
       function sql7 (){
-          $sql = "select avg(Bicicletário), Estacao_Nome from Especificacao_Trem group by Estacao_Nome;";
+          $sql = "select avg(Kilometragem) from Especificacao_Trem";
           $result = $this->connection->query ($sql);
-          if ($result===FALSE){
-              echo "deu falha na query";
-          }
-          return $result->fetch_bool();
+          return $result->fetch_all();
       }
 
       function sql8 (){
@@ -89,7 +86,7 @@
       }
 
       function sql10 (){
-          $sql = "select Estacao_Nome, Tempo_volta from Especificacao_VLT where Tempo_volta in (select max(Tempo_volta) from Especificacao_VLT);";
+          $sql = "select Estacao_Nome, Tempo_volta from Especificacao_VLT where Tempo_volta in (select min(Tempo_volta) from Especificacao_VLT);";
           $result = $this->connection->query ($sql);
           return $result->fetch_all();
       }

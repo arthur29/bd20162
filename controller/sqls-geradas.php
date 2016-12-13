@@ -122,7 +122,7 @@
           $result = $dao_sqls_geradas->sql7();
 
           $retorno = "<table class='table table-striped'>";
-          $retorno .= "<tr> <th>Média de bicicletários por estação de trem</th></tr>";
+          $retorno .= "<tr> <th>Média de kilometros por estação de trem</th></tr>";
           $retorno .= "<tr>";
           $retorno .= "<td>";
           foreach ($result as $res){
@@ -179,7 +179,7 @@
       $result = $dao_sqls_geradas->sql10();
 
       $retorno = "<table class='table table-striped'>";
-      $retorno .= "<tr> <th>Estação que possui o maior tempo de volta, e seu respectivo tempo</th></tr>";
+      $retorno .= "<tr> <th>Estação que possui o menor tempo de volta, e seu respectivo tempo</th></tr>";
         $retorno .= "<tr>";
         $retorno .= "<td>";
          foreach ($result as $res){

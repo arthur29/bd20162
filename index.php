@@ -73,7 +73,7 @@
 								<input type="radio" aria-label="teste7" id="sql7" name="sqls-geradas">
 							</span>
 							<div class="form-control">
-								Média de bicicletários por estação
+								Média de kilometros por estação de trem
 							</div>
 						</div>
 						<div class="input-group">
@@ -128,7 +128,7 @@
 								<input type="radio" aria-label="teste10" id="sql10" name="sqls-geradas">
 							</span>
 							<div class="form-control">
-								Estação com maior tempo de volta e seu respectivo tempo
+								Estação com menor tempo de volta e seu respectivo tempo
 							</div>
 						</div>
 
@@ -139,8 +139,8 @@
 	      <div class="row">
 	        <div class="col-sm-offset-2 col-sm-8">
 	          <div class="input-group">
-	            <span class="input-group-addon" id="basic-addon1">Dado para o sql</span>
-	            <input type="text" class="form-control" placeholder="Dado para o sql" aria-describedby="basic-addon1" id="data" value="olar">
+<!--	            <span  class="input-group-addon" id="basic-addon1">Dado para o sql</span>-->
+	            <input type="hidden" class="form-control" placeholder="Dado para o sql" aria-describedby="basic-addon1" id="data" value="olar">
 	          </div>
 	        </div>
 	      </div>
