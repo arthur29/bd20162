@@ -63,3 +63,25 @@ body{
 #response{
   margin-top:40px;
 }
+
+table {
+  text-align: center;
+  margin: auto;
+}
+table th {
+  text-align: center;
+}
+
+.footer{
+  margin: 100px;
+}
+.table{
+  width: auto;
+  min-width: 50%;
+}
+
+.form-control{
+  height: -moz-min-content;
+  height: -webkit-min-content;
+  height: min-content;
+}

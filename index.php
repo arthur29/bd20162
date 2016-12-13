@@ -4,6 +4,7 @@
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+			<link rel="stylesheet" href="files/css/animate.css"/>
 			<link rel="stylesheet" href="files/css/index.css"/>
 			<link rel="shortcut icon" type="image/png" href="files/images/icon.png"/>
 		</head>
@@ -14,7 +15,7 @@
 					<a class="navbar-brand" href="#">STCP</a>
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="#sobre">Sobre</a>
+							<a href="#equipe">Equipe</a>
 						</li>
 					</ul>
 					</div>
@@ -22,10 +23,10 @@
 			</nav>
 			<div class="container-fluid banner">
 				<div class="row">
-					<div id="banner-texto">
+					<div id="banner-texto" class="animated fadeIn">
 						<h1> STCP - Sistema de Transporte Coletivo Público </h1>
 					</div>
-					<div id="banner-background">
+					<div id="banner-background" class="animated fadeIn">
 						<img src="files/images/bg_vlt.jpg" >
 					</div>
 				</div>
@@ -33,7 +34,7 @@
 
 			<!--Home-->
 			<div class="container-fluid pagina" id="home">
-	      <div class="row row-subtitle text-center subtitle" id="sqls-geradas">
+	      <div class="row row-subtitle text-center subtitle  wow fadeIn" data-wow-delay="0.5s" id="sqls-geradas">
 	        <h2>Transporte sobre Trilhos no Rio de Janeiro</h2>
 					<h4>O que quer saber?</h4>
 	      </div>
@@ -41,7 +42,7 @@
 				<div class="row conteudo">
 					<!--Esquerda-->
 					<div class="col-sm-6 coluna">
-	        	<div class="input-group">
+	        	<div class="input-group wow fadeInLeft" data-wow-delay="0.5s">
 	            <span class="input-group-addon">
 	              <input type="radio" aria-label="teste1" id="sql1" name="sqls-geradas">
 	            </span>
@@ -50,7 +51,7 @@
 	            </div>
 	          </div>
 
-	          <div class="input-group">
+	          <div class="input-group wow fadeInLeft" data-wow-delay="0.6s">
 	            <span class="input-group-addon">
 	              <input type="radio" aria-label="teste3" id="sql3" name="sqls-geradas">
 	            </span>
@@ -59,7 +60,7 @@
 							</div>
 	          </div>
 
-						<div class="input-group">
+						<div class="input-group wow fadeInLeft" data-wow-delay="0.7s">
 							<span class="input-group-addon">
 								<input type="radio" aria-label="teste5" id="sql5" name="sqls-geradas">
 							</span>
@@ -68,7 +69,7 @@
 							</div>
 						</div>
 
-						<div class="input-group">
+						<div class="input-group wow fadeInLeft" data-wow-delay="0.8s">
 							<span class="input-group-addon">
 								<input type="radio" aria-label="teste7" id="sql7" name="sqls-geradas">
 							</span>
@@ -76,7 +77,7 @@
 								Média de kilometros por estação de trem
 							</div>
 						</div>
-						<div class="input-group">
+						<div class="input-group wow fadeInLeft" data-wow-delay="0.9s">
 							<span class="input-group-addon">
 								<input type="radio" aria-label="teste9" id="sql9" name="sqls-geradas">
 							</span>
@@ -87,7 +88,7 @@
 	        </div>
 					<!--Direita-->
 	        <div class="col-sm-6 coluna">
-						<div class="input-group">
+						<div class="input-group wow fadeInRight" data-wow-delay="0.5s">
 	            <span class="input-group-addon">
 	              <input type="radio" aria-label="teste2" id="sql2" name="sqls-geradas">
 	            </span>
@@ -96,7 +97,7 @@
 	            </div>
 	          </div>
 
-						<div class="input-group">
+						<div class="input-group wow fadeInRight" data-wow-delay="0.6s">
 							<span class="input-group-addon">
 								<input type="radio" aria-label="teste4" id="sql4" name="sqls-geradas">
 							</span>
@@ -105,7 +106,7 @@
 							</div>
 						</div>
 
-						<div class="input-group">
+						<div class="input-group wow fadeInRight" data-wow-delay="0.7s">
 							<span class="input-group-addon">
 								<input type="radio" aria-label="teste6" id="sql6" name="sqls-geradas">
 							</span>
@@ -114,7 +115,7 @@
 							</div>
 						</div>
 
-						<div class="input-group">
+						<div class="input-group wow fadeInRight" data-wow-delay="0.8s">
 							<span class="input-group-addon">
 								<input type="radio" aria-label="teste8" id="sql8" name="sqls-geradas">
 							</span>
@@ -123,7 +124,7 @@
 							</div>
 						</div>
 
-						<div class="input-group">
+						<div class="input-group wow fadeInRight" data-wow-delay="0.9s">
 							<span class="input-group-addon">
 								<input type="radio" aria-label="teste10" id="sql10" name="sqls-geradas">
 							</span>
@@ -150,13 +151,39 @@
 
 					</div>
 	      </div>
+				<div class="text-center subtitle  wow fadeIn" data-wow-delay="1.5s" id="equipe">
+					<h2>Equipe</h2>
+
+					<h4 class="wow fadeIn" data-wow-delay="1.7s">Arthur Gonçalves</h4>
+					<h6 class="wow fadeIn" data-wow-delay="1.7s">Mineração de dados, Projeto Lógico e Desenvolvimento da Aplicação Web</h6>
+
+					<h4 class="wow fadeIn" data-wow-delay="1.9s">Daniel Atkinson</h4>
+					<h6 class="wow fadeIn" data-wow-delay="1.9s">Projeto Conceitual, Projeto Lógico e Autor do Artigo</h6>
+
+					<h4 class="wow fadeIn" data-wow-delay="2.1s">Diego Rodrigues</h4>
+					<h6 class="wow fadeIn" data-wow-delay="2.1s">Levantamento e organização de dados e Desenvolvimento da Aplicação Web</h6>
+
+					<h4 class="wow fadeIn" data-wow-delay="2.3s">Diego Souza</h4>
+					<h6 class="wow fadeIn" data-wow-delay="2.3s">Criação das Consultas em SQL</h6>
+
+					<h4 class="wow fadeIn" data-wow-delay="2.5s">Karine Cardozo</h4>
+					<h6 class="wow fadeIn" data-wow-delay="2.5s">Levantamento e organização de dados e Desenvolvimento da Aplicação Web</h6>
+				</div>
+
+				<div class="footer">
+
+				</div>
+
 				<!--Fecha a Home-->
 			</div>
 
-			<div class="container-fluid pagina" id="sobre">
-				<h2>Sobre</h2>
-			</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="files/js/index.js"></script>
+
+
+    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script type="text/javascript" src="files/js/wow.js"></script>
+			<script>
+				new WOW().init();
+			</script>
+			<script type="text/javascript" src="files/js/index.js"></script>
 	</body>
 </html>

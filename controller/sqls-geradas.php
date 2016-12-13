@@ -20,10 +20,10 @@
     case 'sql1':
       $result = $dao_sqls_geradas->sql1();
       
-      $retorno = "<table class='table table-striped'>";
+      $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
       $retorno .= "<tr> <th>Nome das Linhas de Metrô</th></tr>";
         $retorno .= "<tr>";
-        $retorno .= "<td>";
+        $retorno .= "<td class='wow fadeIn'  data-wow-delay='0.4s'>";
         foreach ($result as $res){
             $retorno .= $res[0]."<br/>";
         }
@@ -36,10 +36,10 @@
      case 'sql2':
       $result = $dao_sqls_geradas->sql2();
 
-      $retorno = "<table class='table table-striped'>";
+      $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
       $retorno .= "<tr> <th>Estações do ramal Japeri</th></tr>";
         $retorno .= "<tr>";
-        $retorno .= "<td>";
+        $retorno .= "<td class='wow fadeIn'  data-wow-delay='0.4s'>";
         foreach ($result as $res){
             $retorno .= $res[0]."<br/>";
         }
@@ -52,10 +52,10 @@
      case 'sql3':
       $result = $dao_sqls_geradas->sql3();
 
-      $retorno = "<table class='table table-striped'>";
+      $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
       $retorno .= "<tr> <th>Número de estações de VLT que possuem integração</th></tr>";
         $retorno .= "<tr>";
-        $retorno .= "<td>";
+        $retorno .= "<td class='wow fadeIn'  data-wow-delay='0.4s'>";
          foreach ($result as $res){
              $retorno .= $res[0]."<br/>";
          }
@@ -68,10 +68,10 @@
      case 'sql4':
       $result = $dao_sqls_geradas->sql4();
 
-      $retorno = "<table class='table table-striped'>";
+      $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
       $retorno .= "<tr> <th>Estações da linha vermelha do metrô</th></tr>";
         $retorno .= "<tr>";
-        $retorno .= "<td>";
+        $retorno .= "<td class='wow fadeIn'  data-wow-delay='0.4s'>";
          foreach ($result as $res){
              $retorno .= $res[0]."<br/>";
          }
@@ -84,15 +84,15 @@
      case 'sql5':
       $result = $dao_sqls_geradas->sql5();
 
-      $retorno = "<table class='table table-striped'>";
-      $retorno .= "<tr> <th>Estações que possuem elevador e seus respectivos bairros</th></tr>";
+      $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
+      $retorno .= "<tr> <th colspan='2'>Estações que possuem elevador e seus respectivos bairros</th></tr>";
         $retorno .= "<tr>";
-        $retorno .= "<td>";
+        $retorno .= "<td class='wow fadeInLeft'  data-wow-delay='0.4s'>";
          foreach ($result as $res){
              $retorno .= $res[0]."<br/>";
          }
         $retorno .="</td>";
-        $retorno .="<td>";
+        $retorno .="<td class='wow fadeInRight'  data-wow-delay='0.6s'>";
          foreach ($result as $res){
              $retorno .= $res[1]."<br/>";
          }
@@ -105,10 +105,10 @@
       case 'sql6':
       $result = $dao_sqls_geradas->sql6();
 
-      $retorno = "<table class='table table-striped'>";
+      $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
       $retorno .= "<tr> <th>Quantidade de estações de cada tipo de transporte (VLT, Metrô, Trem)</th></tr>";
         $retorno .= "<tr>";
-        $retorno .= "<td>";
+        $retorno .= "<td class='wow fadeIn'  data-wow-delay='0.4s'>";
          foreach ($result as $res){
              $retorno .= $res[0]."<br/>";
          }
@@ -121,10 +121,10 @@
       case 'sql7':
           $result = $dao_sqls_geradas->sql7();
 
-          $retorno = "<table class='table table-striped'>";
+          $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
           $retorno .= "<tr> <th>Média de kilometros por estação de trem</th></tr>";
           $retorno .= "<tr>";
-          $retorno .= "<td>";
+          $retorno .= "<td class='wow fadeIn'  data-wow-delay='0.4s'>";
           foreach ($result as $res){
               $retorno .= $res[0]."<br/>";
           }
@@ -139,15 +139,15 @@
       case 'sql8':
           $result = $dao_sqls_geradas->sql8();
 
-          $retorno = "<table class='table table-striped'>";
-          $retorno .= "<tr> <th>Estação de trem que possui a maior kilometragem, e a sua kilometragem:</th></tr>";
+          $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
+          $retorno .= "<tr> <th colspan='2'>Estação de trem que possui a maior kilometragem, e a sua kilometragem:</th></tr>";
           $retorno .= "<tr>";
-          $retorno .= "<td>";
+          $retorno .= "<td class='wow fadeInLeft'  data-wow-delay='0.4s'>";
           foreach ($result as $res){
               $retorno .= $res[0]."<br/>";
           }
           $retorno .="</td>";
-          $retorno .= "<td>";
+          $retorno .= "<td class='wow fadeInRight'  data-wow-delay='0.6s'>";
           foreach ($result as $res){
               $retorno .= $res[1]."<br/>";
           }
@@ -161,10 +161,10 @@
       case 'sql9':
       $result = $dao_sqls_geradas->sql9();
 
-      $retorno = "<table class='table table-striped'>";
+      $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
       $retorno .= "<tr> <th>Estacoes de metrô que possuem mais de dois elevadores</th></tr>";
         $retorno .= "<tr>";
-        $retorno .= "<td>";
+        $retorno .= "<td class='wow fadeIn'  data-wow-delay='0.4s'>";
          foreach ($result as $res){
              $retorno .= $res[0]."<br/>";
          }
@@ -178,15 +178,15 @@
       case 'sql10':
       $result = $dao_sqls_geradas->sql10();
 
-      $retorno = "<table class='table table-striped'>";
-      $retorno .= "<tr> <th>Estação que possui o menor tempo de volta, e seu respectivo tempo</th></tr>";
+      $retorno = "<table class='table table-striped wow fadeIn'  data-wow-delay='0.2s'>";
+      $retorno .= "<tr> <th colspan='2'>Estação que possui o menor tempo de volta, e seu respectivo tempo</th></tr>";
         $retorno .= "<tr>";
-        $retorno .= "<td>";
+        $retorno .= "<td class='wow fadeInLeft'  data-wow-delay='0.4s'>";
          foreach ($result as $res){
              $retorno .= $res[0]."<br/>";
          }
         $retorno .="</td>";
-          $retorno .= "<td>";
+          $retorno .= "<td class='wow fadeInRight'  data-wow-delay='0.6s'>";
           foreach ($result as $res){
               $retorno .= $res[1]."<br/>";
           }
