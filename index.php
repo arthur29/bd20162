@@ -128,7 +128,7 @@
 								<input type="radio" aria-label="teste10" id="sql10" name="sqls-geradas">
 							</span>
 							<div class="form-control">
-								Estação com menor tempo de volta e seu respectivo tempo
+								Estação com maior tempo de volta e seu respectivo tempo
 							</div>
 						</div>
 

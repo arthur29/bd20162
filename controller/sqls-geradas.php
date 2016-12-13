@@ -92,6 +92,11 @@
              $retorno .= $res[0]."<br/>";
          }
         $retorno .="</td>";
+        $retorno .="<td>";
+         foreach ($result as $res){
+             $retorno .= $res[1]."<br/>";
+         }
+        $retorno .="</td>";
         $retorno .="</tr>";
       $retorno .= "</table>";
       echo $retorno;
@@ -101,7 +106,7 @@
       $result = $dao_sqls_geradas->sql6();
 
       $retorno = "<table class='table table-striped'>";
-      $retorno .= "<tr> <th>Quantidade de estações de cada tipo de transporte</th></tr>";
+      $retorno .= "<tr> <th>Quantidade de estações de cada tipo de transporte (VLT, Metrô, Trem)</th></tr>";
         $retorno .= "<tr>";
         $retorno .= "<td>";
          foreach ($result as $res){
@@ -142,6 +147,11 @@
               $retorno .= $res[0]."<br/>";
           }
           $retorno .="</td>";
+          $retorno .= "<td>";
+          foreach ($result as $res){
+              $retorno .= $res[1]."<br/>";
+          }
+          $retorno .="</td>";
           $retorno .="</tr>";
           $retorno .= "</table>";
           echo $retorno;
@@ -169,13 +179,18 @@
       $result = $dao_sqls_geradas->sql10();
 
       $retorno = "<table class='table table-striped'>";
-      $retorno .= "<tr> <th>Estação que possui o menor tempo de volta, e seu respectivo tempo</th></tr>";
+      $retorno .= "<tr> <th>Estação que possui o maior tempo de volta, e seu respectivo tempo</th></tr>";
         $retorno .= "<tr>";
         $retorno .= "<td>";
          foreach ($result as $res){
              $retorno .= $res[0]."<br/>";
          }
         $retorno .="</td>";
+          $retorno .= "<td>";
+          foreach ($result as $res){
+              $retorno .= $res[1]."<br/>";
+          }
+          $retorno .="</td>";
         $retorno .="</tr>";
       $retorno .= "</table>";
       echo $retorno;
